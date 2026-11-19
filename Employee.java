@@ -1,5 +1,5 @@
 public class Employee {
     public void display() {
-        System.out.println("Main Feature branch");
+        System.out.println("Main branch");
     }
 }
