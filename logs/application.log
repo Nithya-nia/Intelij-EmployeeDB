@@ -1,0 +1,488 @@
+2026-11-18T12:54:46.937+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] o.e.employeedb.EmployeeDbApplication     : Starting EmployeeDbApplication using Java 27 with PID 6888 (C:\Users\imnit\Downloads\FirstSpringboot\EmployeeDB\target\classes started by NITHYA S in C:\Users\imnit\Downloads\FirstSpringboot\EmployeeDB)
+2026-11-18T12:54:46.948+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] o.e.employeedb.EmployeeDbApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-11-18T12:54:47.068+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-18T12:54:47.069+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-18T12:54:48.667+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-18T12:54:48.756+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2026-11-18T12:54:49.749+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-18T12:54:49.772+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-18T12:54:49.772+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-18T12:54:49.872+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2800 ms
+2026-11-18T12:54:50.354+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-18T12:54:50.477+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-18T12:54:51.279+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-18T12:54:51.340+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-18T12:54:52.397+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f13b6a5
+2026-11-18T12:54:52.399+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-18T12:54:52.581+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Employeedb]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: Employeedb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-18T12:54:54.154+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-18T12:54:54.385+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-18T12:54:54.715+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-18T12:54:55.334+05:30  WARN 6888 --- [EmployeeDB] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-18T12:54:56.216+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-18T12:54:56.237+05:30  INFO 6888 --- [EmployeeDB] [restartedMain] o.e.employeedb.EmployeeDbApplication     : Started EmployeeDbApplication in 10.211 seconds (process running for 12.311)
+2026-11-18T12:54:56.245+05:30  WARN 6888 --- [EmployeeDB] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-18T12:54:56.245+05:30  WARN 6888 --- [EmployeeDB] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-18T12:54:56.248+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:54:59.249+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:54:59.251+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Count :0
+2026-11-18T12:54:59.251+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:55:02.253+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:55:02.253+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:55:02.253+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Count :1
+2026-11-18T12:55:02.253+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:55:05.254+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:55:05.254+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Count :2
+2026-11-18T12:55:06.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:55:09.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:55:09.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Count :3
+2026-11-18T12:55:09.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:55:12.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:55:12.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:55:12.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:55:15.241+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:55:16.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:55:19.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:55:19.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:55:22.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:55:22.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:55:22.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:55:25.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:55:26.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:55:27.176+05:30  INFO 6888 --- [EmployeeDB] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-18T12:55:27.177+05:30  INFO 6888 --- [EmployeeDB] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-18T12:55:27.180+05:30  INFO 6888 --- [EmployeeDB] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-11-18T12:55:28.369+05:30  INFO 6888 --- [EmployeeDB] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 447 ms
+2026-11-18T12:55:29.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:55:29.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:55:32.240+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:55:32.240+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:55:32.240+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:55:35.242+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:55:36.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:55:39.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:55:39.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:55:42.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:55:42.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:55:42.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:55:45.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:55:46.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:55:49.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:55:49.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:55:52.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:55:52.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:55:52.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:55:55.240+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:55:56.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:55:59.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:55:59.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:56:02.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:56:02.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:56:02.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:56:05.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:56:06.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:56:09.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:56:09.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:56:12.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:56:12.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:56:12.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:56:15.240+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:56:16.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:56:19.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:56:19.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:56:22.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:56:22.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:56:22.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:56:25.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:56:26.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:56:29.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:56:29.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:56:32.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:56:32.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:56:32.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:56:35.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:56:36.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:56:39.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:56:39.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:56:42.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:56:42.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:56:42.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:56:45.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:56:46.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:56:49.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:56:49.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:56:52.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:56:52.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:56:52.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:56:55.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:56:56.233+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:56:59.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:56:59.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:57:02.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:57:02.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:57:02.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:57:05.241+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:57:06.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:57:09.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:57:09.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:57:12.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:57:12.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:57:12.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:57:15.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:57:16.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:57:19.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:57:19.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:57:22.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:57:22.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:57:22.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:57:25.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:57:26.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:57:29.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:57:29.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:57:32.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:57:32.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:57:32.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:57:35.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:57:36.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:57:39.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:57:39.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:57:42.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:57:42.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:57:42.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:57:45.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:57:46.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:57:49.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:57:49.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:57:52.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:57:52.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:57:52.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:57:55.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:57:56.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:57:59.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:57:59.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:58:02.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:58:02.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:58:02.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:58:05.240+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:58:06.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:58:09.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:58:09.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:58:12.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:58:12.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:58:12.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:58:15.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:58:16.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:58:19.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:58:19.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:58:22.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:58:22.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:58:22.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:58:25.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:58:26.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:58:29.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:58:29.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:58:32.240+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:58:32.240+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:58:32.241+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:58:35.241+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:58:36.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:58:39.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:58:39.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:58:42.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:58:42.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:58:42.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:58:45.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:58:46.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:58:49.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:58:49.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:58:52.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:58:52.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:58:52.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:58:55.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:58:56.235+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:58:59.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:58:59.236+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:59:02.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:59:02.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:59:02.237+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:59:05.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:59:06.234+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:59:09.238+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:59:09.239+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:59:12.240+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:59:12.240+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:59:12.241+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:59:13.731+05:30  INFO 6888 --- [EmployeeDB] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-18T12:59:13.743+05:30  INFO 6888 --- [EmployeeDB] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-11-18T12:59:15.241+05:30  INFO 6888 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:59:15.247+05:30  INFO 6888 --- [EmployeeDB] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-18T12:59:15.265+05:30  INFO 6888 --- [EmployeeDB] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-18T12:59:15.283+05:30  INFO 6888 --- [EmployeeDB] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-18T12:59:21.886+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] o.e.employeedb.EmployeeDbApplication     : Starting EmployeeDbApplication using Java 27 with PID 22516 (C:\Users\imnit\Downloads\FirstSpringboot\EmployeeDB\target\classes started by NITHYA S in C:\Users\imnit\Downloads\FirstSpringboot\EmployeeDB)
+2026-11-18T12:59:21.893+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] o.e.employeedb.EmployeeDbApplication     : No active profile set, falling back to 1 default profile: "default"
+2026-11-18T12:59:22.012+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-11-18T12:59:22.013+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-11-18T12:59:23.798+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-18T12:59:23.879+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interface.
+2026-11-18T12:59:24.868+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-11-18T12:59:24.899+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-18T12:59:24.900+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.27]
+2026-11-18T12:59:25.015+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3000 ms
+2026-11-18T12:59:25.373+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-11-18T12:59:25.475+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.4.13.Final
+2026-11-18T12:59:26.424+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-18T12:59:26.531+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-18T12:59:27.313+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@286f2df1
+2026-11-18T12:59:27.318+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-18T12:59:27.487+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Employeedb]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.0.44
+	Default catalog/schema: Employeedb/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-18T12:59:29.016+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-18T12:59:29.121+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-18T12:59:29.308+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-11-18T12:59:29.757+05:30  WARN 22516 --- [EmployeeDB] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-18T12:59:30.636+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-11-18T12:59:30.654+05:30  INFO 22516 --- [EmployeeDB] [restartedMain] o.e.employeedb.EmployeeDbApplication     : Started EmployeeDbApplication in 9.688 seconds (process running for 10.811)
+2026-11-18T12:59:30.660+05:30  WARN 22516 --- [EmployeeDB] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-18T12:59:30.660+05:30  WARN 22516 --- [EmployeeDB] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-18T12:59:30.662+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:59:33.663+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:59:33.665+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Count :0
+2026-11-18T12:59:33.665+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:59:36.666+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:59:36.666+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Count :1
+2026-11-18T12:59:36.667+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:59:39.598+05:30  INFO 22516 --- [EmployeeDB] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-18T12:59:39.598+05:30  INFO 22516 --- [EmployeeDB] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-18T12:59:39.601+05:30  INFO 22516 --- [EmployeeDB] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-11-18T12:59:39.669+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:59:39.669+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Count :2
+2026-11-18T12:59:40.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:59:40.418+05:30  INFO 22516 --- [EmployeeDB] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 399 ms
+2026-11-18T12:59:40.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:59:43.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:59:43.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Count :3
+2026-11-18T12:59:43.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:59:46.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:59:46.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:59:49.658+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:59:50.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T12:59:50.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:59:53.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T12:59:53.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T12:59:56.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T12:59:56.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T12:59:59.658+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:00:00.002+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:00:00.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:00:03.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:00:03.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:00:06.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:00:06.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:00:09.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:00:10.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:00:10.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:00:13.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:00:13.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:00:15.720+05:30  INFO 22516 --- [EmployeeDB] [http-nio-8080-exec-5] org.example.employeedb.Service           : Creating employee
+2026-11-18T13:00:15.866+05:30  WARN 22516 --- [EmployeeDB] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.transaction.TransactionSystemException: Could not commit JPA transaction]
+2026-11-18T13:00:16.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:00:16.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:00:19.657+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:00:20.000+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:00:20.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:00:23.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:00:23.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:00:26.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:00:26.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:00:29.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:00:30.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:00:30.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:00:33.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:00:33.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:00:36.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:00:36.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:00:39.657+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:00:40.000+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:00:40.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:00:43.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:00:43.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:00:46.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:00:46.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:00:49.657+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:00:50.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:00:50.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:00:53.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:00:53.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:00:56.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:00:56.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:00:59.657+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:01:00.002+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:01:00.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:01:03.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:01:03.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:01:06.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:01:06.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:01:09.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:01:10.000+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:01:10.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:01:13.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:01:13.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:01:16.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:01:16.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:01:19.657+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:01:20.000+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:01:20.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:01:23.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:01:23.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:01:26.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:01:26.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:01:29.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:01:30.000+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:01:30.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:01:33.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:01:33.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:01:36.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:01:36.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:01:39.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:01:40.000+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:01:40.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:01:43.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:01:43.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:01:46.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:01:46.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:01:49.657+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:01:50.000+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:01:50.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:01:53.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:01:53.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:01:56.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:01:56.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:01:59.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:02:00.000+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:02:00.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:02:03.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:02:03.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:02:06.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:02:06.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:02:09.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:02:10.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:02:10.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:02:13.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:02:13.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:02:16.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:02:16.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:02:19.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:02:20.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:02:20.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:02:23.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:02:23.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:02:26.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:02:26.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:02:29.657+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:02:30.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:02:30.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:02:33.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:02:33.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:02:36.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:02:36.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:02:39.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:02:40.000+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:02:40.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:02:43.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:02:43.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:02:46.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:02:46.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:02:49.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:02:50.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:02:50.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:02:53.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:02:53.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:02:56.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:02:56.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:02:59.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:03:00.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:03:00.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:03:03.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:03:03.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:03:06.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:03:06.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:03:09.657+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:03:10.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:03:10.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:03:13.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:03:13.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:03:16.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:03:16.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:03:19.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:03:20.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:03:20.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:03:23.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:03:23.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:03:26.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:03:26.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:03:29.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:03:30.002+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:03:30.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:03:33.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:03:33.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:03:36.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:03:36.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:03:39.656+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:03:40.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:03:40.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:03:43.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:03:43.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:03:46.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:03:46.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:03:49.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:03:50.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:03:50.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:03:53.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:03:53.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:03:56.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:03:56.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:03:59.657+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:04:00.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:04:00.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:04:03.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:04:03.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:04:06.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:04:06.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:04:09.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:04:10.001+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:04:10.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:04:13.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:04:13.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:04:16.653+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:04:16.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:04:19.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:04:20.000+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:04:20.651+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:04:23.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:04:23.652+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Fixed Delay Scheduler
+2026-11-18T13:04:26.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed Delay Scheduler
+2026-11-18T13:04:26.654+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
+2026-11-18T13:04:29.655+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Delayed 3s Fixed rate Scheduler
+2026-11-18T13:04:30.009+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : Cron Expression
+2026-11-18T13:04:30.664+05:30  INFO 22516 --- [EmployeeDB] [scheduling-1] org.example.employeedb.Scheduler         : FixedRateScheduler
